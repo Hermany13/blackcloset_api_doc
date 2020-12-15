@@ -1,0 +1,32 @@
+_id: req_e97f13d362ea478ba506934480599640
+type: Request
+parentId: fld_45c1c203a2e64e80bef7479d9de6e98c
+modified: 1608043027761
+created: 1607994089863
+url: "{{ _.baseUrl }}/api/v1/register"
+name: Create User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"name": "My Name",
+    	"email": "email@email.com",
+    	"password": "somethinggreat",
+    	"password_confirmation": "somethinggreat"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f11c402dcc2d443f97fb50d5d47d0cd2
+authentication: {}
+metaSortKey: -1607994089863
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

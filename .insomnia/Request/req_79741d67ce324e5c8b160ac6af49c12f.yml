@@ -1,0 +1,30 @@
+_id: req_79741d67ce324e5c8b160ac6af49c12f
+type: Request
+parentId: fld_45c1c203a2e64e80bef7479d9de6e98c
+modified: 1608042966235
+created: 1607994445851
+url: "{{ _.baseUrl }}/api/v1/login"
+name: Auth User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "email@email.com",
+    	"password": "somethinggreat"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc0eecc197404ba9804ad4b64164bb85
+authentication: {}
+metaSortKey: -1607994445851
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

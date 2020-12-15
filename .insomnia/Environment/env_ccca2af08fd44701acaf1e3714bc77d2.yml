@@ -1,0 +1,14 @@
+_id: env_ccca2af08fd44701acaf1e3714bc77d2
+type: Environment
+parentId: env_ba3b872a19f44d79a2f964643cc0e387848c7835
+modified: 1607808508095
+created: 1607808460010
+name: Production
+data:
+  baseUrl: https://blackapi.com
+dataPropertyOrder:
+  "&":
+    - baseUrl
+color: null
+isPrivate: false
+metaSortKey: 1607808460010
