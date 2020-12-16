@@ -1,9 +1,9 @@
 _id: req_18cf225afc584512939cde8464bdafdc
 type: Request
 parentId: fld_258997054d214b4bb64adfb68aab6cff
-modified: 1607895287550
+modified: 1608082783508
 created: 1607883622087
-url: "{{ _.baseUrl }}/api/products/5"
+url: "{{ _.baseUrl }}/api/v1/products/5"
 name: UPDATE Products
 description: ""
 method: PUT
