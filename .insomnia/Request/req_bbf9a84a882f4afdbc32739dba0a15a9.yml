@@ -1,10 +1,10 @@
-_id: req_e97f13d362ea478ba506934480599640
+_id: req_bbf9a84a882f4afdbc32739dba0a15a9
 type: Request
 parentId: fld_45c1c203a2e64e80bef7479d9de6e98c
-modified: 1615146389727
-created: 1607994089863
-url: "{{ _.baseUrl }}/api/v1/user/register"
-name: Create User
+modified: 1615146366627
+created: 1615146334439
+url: "{{ _.baseUrl }}/api/v1/user/register/admin"
+name: Create Admin User
 description: ""
 method: POST
 body:
@@ -12,7 +12,7 @@ body:
   text: |
     {
     	"name": "My Name",
-    	"email": "email4@email.com",
+    	"email": "admin@email.com",
     	"password": "somethinggreat",
     	"password_confirmation": "somethinggreat"
     }
@@ -20,9 +20,11 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_f11c402dcc2d443f97fb50d5d47d0cd2
-authentication: {}
-metaSortKey: -1607994089863
+    id: pair_9e9e106529ad4965b9fc2a8d5e7ab7cd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1615146334439
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_03b41b2c791d4de5a39ba173a028a16f
 type: Request
 parentId: fld_258997054d214b4bb64adfb68aab6cff
-modified: 1607994618837
+modified: 1615142136808
 created: 1607808622488
 url: "{{ _.baseUrl }}/api/v1/products"
 name: POST Product
@@ -11,15 +11,17 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Calsa Linda 22222",
-    	"price": "35.00", 
-    	"size": "P;M;G;GG",
-    	"color": "Preto", 
-    	"category": "Calsa", 
+    	"name": "asdsadasd",
+    	"slug": "asdasdasdasddasda",
+    	"offerPrice": "0",
+    	"isOffer": "0",
+    	"price": "100.00", 
+    	"parcels": "5",
     	"availability": "1",
     	"status": "1", 
-    	"description": "Blusinha suede muito confortável.",
-    	"image": "https://image.com"
+    	"description": "Calsa foda",
+    	"image": "https://image.com",
+    	"categories": [4]
     }
 parameters: []
 headers:

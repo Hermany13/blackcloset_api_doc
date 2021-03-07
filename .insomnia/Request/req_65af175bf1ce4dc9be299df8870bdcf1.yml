@@ -1,0 +1,32 @@
+_id: req_65af175bf1ce4dc9be299df8870bdcf1
+type: Request
+parentId: fld_4d8ecaba428b43089e3ab3b95f276078
+modified: 1615142893955
+created: 1615142826603
+url: "{{ _.baseUrl }}/api/v1/colors/"
+name: POST Color
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"label": "Preto",
+    	"hexcode": "#000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0fef96f1ed634e07b3e7b9d9660373ce
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1615142826603
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

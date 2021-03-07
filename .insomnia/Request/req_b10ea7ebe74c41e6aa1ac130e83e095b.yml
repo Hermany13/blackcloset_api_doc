@@ -1,17 +1,17 @@
-_id: req_421ad8c082c348ee8bcdf70e589833c7
+_id: req_b10ea7ebe74c41e6aa1ac130e83e095b
 type: Request
-parentId: fld_258997054d214b4bb64adfb68aab6cff
-modified: 1615141997707
-created: 1607875852528
-url: "{{ _.baseUrl }}/api/v1/products"
-name: GET Products
+parentId: fld_4d8ecaba428b43089e3ab3b95f276078
+modified: 1615143044360
+created: 1615142810459
+url: "{{ _.baseUrl }}/api/v1/colors"
+name: GET Colors
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1607875852528
+metaSortKey: -1615142810502
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

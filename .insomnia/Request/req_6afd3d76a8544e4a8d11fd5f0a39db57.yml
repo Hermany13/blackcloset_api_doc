@@ -1,0 +1,32 @@
+_id: req_6afd3d76a8544e4a8d11fd5f0a39db57
+type: Request
+parentId: fld_4d8ecaba428b43089e3ab3b95f276078
+modified: 1615143311841
+created: 1615143229339
+url: "{{ _.baseUrl }}/api/v1/colors/1"
+name: UPDATE Color
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"label": "Branco",
+    	"hexcode": "#fff"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aa1fb9f460a54d358e85f9076ec6ee10
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1615143229339
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

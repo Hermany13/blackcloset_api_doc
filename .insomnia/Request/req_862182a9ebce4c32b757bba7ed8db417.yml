@@ -1,17 +1,17 @@
-_id: req_421ad8c082c348ee8bcdf70e589833c7
+_id: req_862182a9ebce4c32b757bba7ed8db417
 type: Request
-parentId: fld_258997054d214b4bb64adfb68aab6cff
-modified: 1615141997707
-created: 1607875852528
-url: "{{ _.baseUrl }}/api/v1/products"
-name: GET Products
+parentId: fld_23e7bc07972e44fa894a8e9cf9931d0f
+modified: 1615143069625
+created: 1614986121695
+url: "{{ _.baseUrl }}/api/v1/categories/5"
+name: GET Category by ID
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1607875852528
+metaSortKey: -1614985347568
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

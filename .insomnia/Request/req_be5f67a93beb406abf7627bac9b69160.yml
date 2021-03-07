@@ -1,0 +1,31 @@
+_id: req_be5f67a93beb406abf7627bac9b69160
+type: Request
+parentId: fld_23e7bc07972e44fa894a8e9cf9931d0f
+modified: 1615133802006
+created: 1615133763987
+url: "{{ _.baseUrl }}/api/v1/categories/5"
+name: UPDATE category
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Sapatos de lixo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0cbbfdebb2f24acc833bbf8e74c224a1
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1615133763987
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
