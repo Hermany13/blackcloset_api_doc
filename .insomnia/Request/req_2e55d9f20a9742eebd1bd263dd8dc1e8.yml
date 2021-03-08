@@ -1,27 +1,28 @@
-_id: req_be5f67a93beb406abf7627bac9b69160
+_id: req_2e55d9f20a9742eebd1bd263dd8dc1e8
 type: Request
-parentId: fld_23e7bc07972e44fa894a8e9cf9931d0f
-modified: 1615169398610
-created: 1615133763987
-url: "{{ _.baseUrl }}/api/v1/categories/1"
-name: UPDATE category
+parentId: fld_258997054d214b4bb64adfb68aab6cff
+modified: 1615158460088
+created: 1615158419127
+url: "{{ _.baseUrl }}/api/v1/products/setoffer/1"
+name: UPDATE Set Offer
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Sapatos de lixo"
+    	"isOffer": "1",
+    	"offerPrice": "80.00"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_0cbbfdebb2f24acc833bbf8e74c224a1
+    id: pair_6ca5c6b6597e48fcbf696d3037e9e3ec
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1615133763987
+metaSortKey: -1607879737307.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

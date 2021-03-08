@@ -1,0 +1,36 @@
+_id: req_8ffff0bbaa2c494ab31a3e3726bbbc79
+type: Request
+parentId: fld_2c7e345ba55440f1aaa8440a2ea6c9c1
+modified: 1615168053628
+created: 1615159938296
+url: "{{ _.baseUrl }}/api/v1/products/stock/1"
+name: POST Create Stock
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_product": 1,
+    	"id_color": 2,
+    	"id_size": 1,
+    	"quantity": 10,
+    	"img_color": "https://color.com/color.png",
+    	"status": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ac7a60de2f694c5c8b57e48cb78fe539
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1615159938296
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
