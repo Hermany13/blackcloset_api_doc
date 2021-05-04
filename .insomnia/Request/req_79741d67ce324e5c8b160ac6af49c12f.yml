@@ -1,7 +1,7 @@
 _id: req_79741d67ce324e5c8b160ac6af49c12f
 type: Request
 parentId: fld_45c1c203a2e64e80bef7479d9de6e98c
-modified: 1615158132361
+modified: 1619738770697
 created: 1607994445851
 url: "{{ _.baseUrl }}/api/v1/user/login"
 name: Auth User
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "admin@email.com",
-    	"password": "somethinggreat"
+    	"email": "hermanyvieiratj@gmail.com",
+    	"password": "hermanyadmin"
     }
 parameters: []
 headers:

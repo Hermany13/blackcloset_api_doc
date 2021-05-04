@@ -1,7 +1,7 @@
 _id: req_e97f13d362ea478ba506934480599640
 type: Request
 parentId: fld_45c1c203a2e64e80bef7479d9de6e98c
-modified: 1615158084282
+modified: 1619738658529
 created: 1607994089863
 url: "{{ _.baseUrl }}/api/v1/user/register"
 name: Create User
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |
     {
-    	"name": "My Name",
-    	"email": "admin@email.com",
-    	"password": "somethinggreat",
-    	"password_confirmation": "somethinggreat"
+    	"name": "Hermany",
+    	"email": "hermanyvieiratj@gmail.com",
+    	"password": "hermanyadmin",
+    	"password_confirmation": "hermanyadmin"
     }
 parameters: []
 headers:

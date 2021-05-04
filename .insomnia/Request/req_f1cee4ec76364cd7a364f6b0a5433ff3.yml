@@ -1,7 +1,7 @@
 _id: req_f1cee4ec76364cd7a364f6b0a5433ff3
 type: Request
 parentId: fld_23e7bc07972e44fa894a8e9cf9931d0f
-modified: 1615169379050
+modified: 1620169237116
 created: 1614985184804
 url: "{{ _.baseUrl }}/api/v1/categories"
 name: POST Category
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Short"
+    	"name": "Jaqueta"
     }
 parameters: []
 headers:

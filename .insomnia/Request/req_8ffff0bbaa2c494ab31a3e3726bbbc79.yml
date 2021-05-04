@@ -1,7 +1,7 @@
 _id: req_8ffff0bbaa2c494ab31a3e3726bbbc79
 type: Request
 parentId: fld_2c7e345ba55440f1aaa8440a2ea6c9c1
-modified: 1615168053628
+modified: 1620171103417
 created: 1615159938296
 url: "{{ _.baseUrl }}/api/v1/products/stock/1"
 name: POST Create Stock
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id_product": 1,
-    	"id_color": 2,
+    	"id_product": 7,
+    	"id_color": 1,
     	"id_size": 1,
     	"quantity": 10,
-    	"img_color": "https://color.com/color.png",
+    	"img_color": "https://i.ibb.co/kBC05WZ/1612216763169.jpg",
     	"status": 1
     }
 parameters: []

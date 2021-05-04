@@ -1,7 +1,7 @@
 _id: req_bbf9a84a882f4afdbc32739dba0a15a9
 type: Request
 parentId: fld_45c1c203a2e64e80bef7479d9de6e98c
-modified: 1615146366627
+modified: 1619745514005
 created: 1615146334439
 url: "{{ _.baseUrl }}/api/v1/user/register/admin"
 name: Create Admin User
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |
     {
-    	"name": "My Name",
+    	"name": "Roccato",
     	"email": "admin@email.com",
     	"password": "somethinggreat",
     	"password_confirmation": "somethinggreat"
@@ -24,6 +24,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.token }}"
+  prefix: ""
 metaSortKey: -1615146334439
 isPrivate: false
 settingStoreCookies: true

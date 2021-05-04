@@ -1,7 +1,7 @@
 _id: req_65af175bf1ce4dc9be299df8870bdcf1
 type: Request
 parentId: fld_4d8ecaba428b43089e3ab3b95f276078
-modified: 1615166776668
+modified: 1620167285770
 created: 1615142826603
 url: "{{ _.baseUrl }}/api/v1/colors/"
 name: POST Color
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"label": "Verde",
+    	"label": "Azul",
     	"hexcode": "#000"
     }
 parameters: []
